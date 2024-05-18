@@ -9,7 +9,7 @@ A basic server to client desktop stream in NodeJS and HTML
 - Run `npm install ws`
 - Run `npm install screenshot-desktop`
 - Run `npm install sharp`
-- Run `Run.bat`
+- Run `Run.bat` or `node Server.js`
 - Server is now running...
 - Open  [localhost:3000 in browser](http://localhost:3000/)
 - Open yet another command prompt
