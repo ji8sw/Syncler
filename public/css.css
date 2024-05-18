@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #2C2E3A;
+  }
+
+.SettingsMenu {
+    display: none;
+}
+
+#ToggleSettingsButton {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  margin: 0;
+
+  width: 75px;
+  height: 75px;
+  padding: 20px;
+  background-color: #2e2e2e;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+  border: 3px solid rgb(255, 255, 255);
+}
+
+#ToggleSettingsButton:hover {
+  background-color: #282828;
+  width: 80px;
+  height: 80px;
+}
+
+#ToggleSettingsButton:active {
+  background-color: #282828;
+  width: 70px;
+  height: 70px;
+}
+
+#SettingsMenu {
+  width: 200px;
+  padding: 20px;
+  background-color: #2e2e2e;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+  border: 3px solid rgb(255, 255, 255);
+}
+
+#SettingsMenu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#SettingsMenu li {
+  margin-bottom: 10px;
+}
+
+#SettingsMenu label {
+  display: block;
+  text-align: center;
+  margin-bottom: 5px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#SettingsMenu input[type="number"],
+#SettingsMenu input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  background-color: #151515;
+  color: white;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-weight: bold;
+  text-align: center;
+}
+
+#SettingsMenu button {
+  background-color: #151515;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 100%;
+  font-weight: bold;
+}
+
+#SettingsMenu button:hover {
+  background-color: #282828;
+}
